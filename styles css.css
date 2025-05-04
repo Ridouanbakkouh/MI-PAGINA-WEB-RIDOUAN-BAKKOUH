@@ -1,0 +1,145 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column; 
+}
+.pricing-table {
+  text-align: center;
+  width: 100%;
+}
+.linea{
+
+  border-top: 5px solid blue;
+}
+.header-text {
+  margin-bottom: 30px; 
+}
+.header-text h1,
+.header-text h6 {
+    margin: 5px 0; 
+}
+
+.plans {
+    display: flex;
+    justify-content: center;
+    gap: 100px;}
+    .plan h2 {
+      margin: 20;
+      padding: 50px 0;
+  }
+  
+  .plan .price {
+      font-size: 2em;
+      margin: 50px 0;
+  }
+
+.plan button {
+  background-color: #4CAF50; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.plan button:hover {
+  background-color: #45a049; 
+}
+
+.pricing-table {
+  text-align: center;
+}
+
+.pricing-table h1 {
+  margin-bottom: 20px;
+}
+
+.plans {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.plan {
+  background-color: #2a2a2a;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+}
+
+.plan h2 {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.plan .price {
+  font-size: 2em;
+  margin: 10px 0;
+}
+
+.plan ul {
+  list-style: none;
+  padding: 0;
+}
+
+.plan ul li {
+  margin: 10px 0;
+}
+
+.plan button {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.plan button:hover {
+  background-color: #ddd;
+  
+}
+.recadre {
+  background-color: #3b5998;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+  margin: 20px auto;
+}
+
+.recadre h2 {
+  font-size: 24px;
+  margin: 0;
+} 
+  
+ 
+  .recadre .preu {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+.plan.starter {
+  background-color:#3b5998;}
+
+
+.plan.business {
+  background-color:  #00a99d;
+}
+  
+
+.plan.ecommerce {
+  background-color: #d94f5a;
+}
+

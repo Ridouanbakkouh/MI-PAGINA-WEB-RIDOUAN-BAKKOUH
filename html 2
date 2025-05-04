@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Table</title>
+       <!--<link rel="stylesheet" href="styles.css">-->
+	   <style>
+	   
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.pricing-table {
+    text-align: center;
+}
+.pricing-table h1 {
+    margin-bottom: 20px;
+}
+.plans {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.plan {
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+}
+.plan h2 {
+    margin: 0;
+    padding: 10px 0;
+}
+.plan .price {
+    font-size: 2em;
+    margin: 10px 0;
+}
+.plan ul {
+    list-style: none;
+    padding: 0;
+}
+.plan ul li {
+    margin: 10px 0;
+}
+.plan button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.plan button:hover {
+    background-color: #ddd;
+}
+.plan.starter {
+    background-color: #3b5998;
+}
+.plan.business {
+    background-color: #00a99d;
+}
+.plan.ecommerce {
+    background-color: #d9534f;
+}
+
+	   </style
+    </head>
+<body>
+    <div class="pricing-table">
+        <h1>Choose your pay </h1>
+        <h1> monthly website plan</h1>
+        <h6> Sample text. Click to select the text box. Click again or double click to start  </h6>
+        <h6>editing the text</h6>
+        <div class="plans">
+            <div class="plan starter">
+                <p  >  Five Page Starter
+                                       $29
+                </p>
+              
+                <ul>
+                    <li>1 full user</li>
+                    <li>1,000 Email Previews</li>
+                    <li>5 contacts per client</li>
+                    <li>5 coffee cups</li>
+                </ul>
+               <!----  <button>BUY NOW</button>-->
+            </div>
+            <div class="plan business">
+                <h4>10 Page Business</h4>
+                <div class="price">$59</div>
+                <ul>
+                    <li>10 full users</li>
+                    <li>2,000 Email Previews</li>
+                    <li>5 contacts per client</li>
+                    <li>10 coffee cups</li>
+                </ul>
+                <!---- <button>BUY NOW</button>-->
+            </div>
+            <div class="plan ecommerce">
+                <h4>eCommerce Starter</h4>
+                <div class="price">$119</div>
+                <ul>
+                    <li>1 full user</li>
+                    <li>3,000 Email Previews</li>
+                    <li>5 contacts per client</li>
+                    <li>15 coffee cups</li>
+                </ul>
+                <!----<button>BUY NOW</button>-->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
